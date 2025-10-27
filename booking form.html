@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <body bgcolor="">
+            <div style="border : 2px solid rgb(0, 0, 0)"</div>
+            <h1><center>Hotel Room Booking Form</center></h1>
+            <form action="#" method="post" align="center"
+            <!--Name-->
+            <label for="fullname">Full name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+            <br><br>
+            <!--Email-->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <!--Phone-->
+            <label for="phone">Phone</label>
+            <input type="phone" id="phonr" name="phone" required>
+            <br><br>
+            <!--Check-in & Check-out-->
+            <label for="Checkin">Check-in-Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+            <br><br>
+            <label for="Checkout">Check-out-Date:</label>
+            <input type="date" id="checkout" name="Checkout">
+            <br><br>
+            <!--Room Type-->
+            <label for="room">Room Type:</label>
+            <select id="room" name="room">
+                <option value="Single">Single Room</option>
+                <option value="double">Double Room</option>
+                <option value="Delux">Deluxe Room</option>
+                <option value="suite">Suite</option>
+            </select>
+            <br><br>
+            <!--Nuber of Guests-->
+            <label for="Number of guests">Number Of Guests</label>
+            <input id="Number" id="Number of guests" name="Number of Guests" required>
+            <br><br>
+            <!--Special Requests-->
+            <label for="requests">Special Requests:</label><br>
+            <textarea id="requests" name="requests" rows="6" cols="80"></textarea>
+            <br><br>
+            <!--Buttons-->
+            <input type="Submit" value="Book Now">
+            <input type="Reset" vlaue="Reset Form">    
+        </body>
+    </head>
+</html>
